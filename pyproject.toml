@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Sphinx = "^6.2.1"
+sphinx = "^6.2.1"
 myst-parser = "^2.0.0"
 sphinx-book-theme = "^1.0.1"
 sphinx-revealjs = "^2.8.0"
@@ -23,7 +23,6 @@ sphinxcontrib-jquery = "^4.1"
 sphinxcontrib-jsmath = "^1.0.1"
 sphinxcontrib-nwdiag = "^2.0.0"
 sphinxcontrib-plantuml = "^0.27"
-
 
 [tool.poetry.group.dev.dependencies]
 sphinx-autobuild = "^2021.3.14"
