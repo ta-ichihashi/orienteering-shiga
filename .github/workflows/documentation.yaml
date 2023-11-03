@@ -20,7 +20,7 @@ jobs:
           poetry install --no-interaction
       - name: Sphinx build
         run: |
-          sphinx-build source _build
+          poetry run sphinx-build source _build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
