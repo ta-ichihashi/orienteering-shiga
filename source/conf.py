@@ -51,7 +51,6 @@ extensions = [
     'sphinxcontrib.seqdiag',
     'sphinxcontrib.actdiag',
     'sphinxcontrib.nwdiag',
-    'sphinxcontrib.youtube'
     ]
 
 source_suffix = {
